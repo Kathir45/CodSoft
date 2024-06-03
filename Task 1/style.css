@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    
+}
+.banner-sec{
+    background: url('banner.jpeg');
+    background-size: cover;
+    height: 300px;
+    max-width: 100vw;
+    
+    display: flex;
+}
+.banner-sec div{
+    margin: auto 0;
+    margin-left: 10%;
+    border-left: 2px solid blue;
+    padding: 5px;
+}
+.banner-sec button{
+    padding: 10px;
+    border: 1px  grey;
+    border-radius: 10px;
+}
+.btn-1{
+    background: pink;
+}
+.btn-2{
+    background: ;
+}
+.feature , .contact{
+    background: rgb(255,37,0);
+background: linear-gradient(90deg, rgba(255,37,0,1) 0%, rgba(224,0,255,0.9937053215809357) 100%);
+color: white;
+}
+.feature .row{
+    margin: 0 20px;
+    
+    
+}
+
+.about h2{
+    width: 200px;
+    border-bottom: 1px solid purple;
+    margin-bottom: 15px;
+}
+.row img{
+    margin: auto;
+}
+.about button{
+    color: white;
+    background: palevioletred;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+    z-index: 10;
+}
+.about h2, .about p, .about button, .about h4{
+    margin-left: 10px;
+}
+.service img{
+    width: 200px;
+}
+.service img, .service h2, .service h6{
+    margin-left: 12px;
+}
+.service div{
+    margin-top: 20px;
+    
+    
+}
+.service img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.service img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+}
